@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "b34f5ffb-c310-4cb2-b9be-4c9f23747e35",
+		"name": "Beer - Ingerencia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ingerencia-app",
+			"item": [
+				{
+					"name": "all beers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8091/v1/beer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"v1",
+								"beer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "beer by name",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Trashy Blonde\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8091/v1/beer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"v1",
+								"beer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "random beer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8091/v1/beer/random",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"v1",
+								"beer",
+								"random"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
