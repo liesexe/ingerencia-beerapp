@@ -1,0 +1,7 @@
+create table LOG_BEER_APP(
+	id SERIAL PRIMARY KEY,
+	metodo VARCHAR (255) NOT NULL,
+	url VARCHAR (255) NOT NULL,
+    tiempo DECIMAL NOT NULL,
+	hora_ejecucion TIMESTAMP default CURRENT_TIMESTAMP	
+);
