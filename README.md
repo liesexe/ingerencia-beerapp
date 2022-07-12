@@ -5,6 +5,7 @@ _Proyecto basado en Punk API (https://punkapi.com/)_
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Además se agrega un pequeño cuadro en el archivo dentro del projecto llamado "documentacion-simple.docx" donde se observan los endpoints y una colección de Postman llamada "Beer-Ingerencia.postman_collection.json" para probar con esta aplicación._
 
 ### Pre-requisitos 📋
 
